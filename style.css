@@ -25,7 +25,8 @@ a{
     width:1000px;
     margin:0 auto;
     padding-left:50px;
-    padding-right:0px;
+    padding-right:50px;
+    padding-bottom: 50px;
     
 }
 .row{
@@ -33,31 +34,38 @@ a{
     align-items: center;
     justify-content: space-around;
 }
-.row img{
+.col-2 img{
     max-width:100%;
-    padding:60px;
+    max-height:300px
 }
 .col-2{
     max-width:100%;
     flex-basis: 50%;
     margin:0 auto;
+    padding-top: 60px;
 }
 body{
     margin: 0;
-    padding: 0;
-    background-color: ivory;
-   
+    padding: 0; 
+    font-family: sans-serif; 
 }
-.status{
-    background-image:url('jhankar2.png');
-    background-position: center;
-    background-repeat: none;
-    height:300px;
-    border-radius:10px;
-    text-align: center;
-    padding-top:80px;
-    color: red;
+.col-2 h1{
+    font-size: 50px;
+    line-height:60px;
+    margin: 25px 0;
 }
-#right-top{
-    margin:0 auto;
+.btn{
+   display: inline-block;
+   font-size: 20px;
+   padding:8px 30px;
+   background-color: lightcoral;
+   border-radius:30px;
+   margin:30px 0;
+   color: white;
+}
+.btn:hover{
+    background-color: green;
+}
+.header{
+    background:radial-gradient(#fff,#ffd6d6);
 }
