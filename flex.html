@@ -19,6 +19,26 @@
     }
     #transaction-area{
         display: none;
+       padding-left: 100px;
+       margin:100px 100px;
+       font-size:50px;
+    }
+    .deposit{
+        background-color: lightcoral;
+    }
+    .withdraw{
+        background-color:honeydew;
+    }
+    .balance{
+        background-color: lightblue;
+    }
+    .status{
+      margin:0 10px;
+      border-radius: 10px;
+      padding: 20px;
+      line-height: 20px;
+      box-shadow: 5px 5px 10px;
+      
     }
    
 </style>
@@ -33,7 +53,26 @@
         <button id="login" class="btn btn-success">Enter</button>
     </div>
     <div id="transaction-area">
-        <h1>hollow</h1>
+        <div class="row">
+            <div class="col-4">
+               <div class="deposit status">
+                <h5>Deposit</h5>
+                <h2>$00</h2>
+               </div>
+            </div>
+            <div class="col-4">
+                <div class="withdraw status">
+                    <h5>Withdraw</h5>
+                <h2>$00</h2>
+                </div>
+            </div>
+            <div class="col-4">
+               <div class="balance status">
+                <h5>Balance</h5>
+                <h2>$1200</h2>
+               </div>
+            </div>
+        </div>
     </div>
 
 
